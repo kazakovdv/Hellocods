@@ -15,7 +15,6 @@ Console.WriteLine("+");
 Console.SetCursorPosition(xc, yc);
 Console.WriteLine("+");
 
-
 int x = xa, y = xb;
 
 int count = 0;
@@ -34,6 +33,7 @@ while(count < 10);
         x = (x + xb) / 2;
         y = (y + yb) / 2;
     }
+
     if(what == 2)
     {
         x = (x + xc) / 2;
